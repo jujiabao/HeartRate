@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蹇幂巼娴嬮噺</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="send">Send</string>
+    <string name="not_connected">链垚锷熻繛鎺ヤ竴涓掴鐗栾澶?/string>
+    <string name="bt_not_enabled_leaving">钃濈堕涓嶅彲鐢紝鍏抽棴绋嫔簭閲嶅惎鍚庡啀璇曪紒</string>
+    <string name="title_connecting">杩炴帴涓?..</string>
+    <string name="title_connected_to">宸茶繛鎺? </string>
+    <string name="title_not_connected">链繛鎺?/string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">镆ユ垒钃濈堕璁惧...</string>
+    <string name="select_device">阃夋嫨涓€涓掴鐗栾澶囨潵杩炴帴</string>
+    <string name="none_paired">娌℃湁钃濈堕宸茬粡閰嶅</string>
+    <string name="none_found">娌℃湁钃濈堕璁惧琚彂鐜?/string>
+    <string name="title_paired_devices">鍖归厤鎴愬姛镄勮掴鐗?/string>
+    <string name="title_other_devices">鍏朵粬鍙敤钃濈堕</string>
+    <string name="button_scan">镆ユ垒璁惧</string>
+
+    <!-- 凿滃崟阌?-->
+    <string name="secure_connect">杩炴帴钃濈堕 - 瀹夊叏</string>
+    <string name="insecure_connect">杩炴帴璁惧 - 浣庡畨鍏?/string>
+    <string name="discoverable">浣胯掴鐗欎负鍙镐?/string>
+
+    <!-- main.xml鎸夐挳浜嬩欢 -->
+    <string name="btn_rec">寮€濮嬫祴蹇幂巼</string>
+    <string name="btn_quit">娴嬮噺锅沧</string>
+
+    <!-- main.xmlTextView -->
+    <string name="show_info">姝ｅ湪銮峰彇鏁版嵁....</string>
+    <string name="show_heart">褰揿墠蹇幂巼锛?</string>
+
+    <!-- BluetoothChat钃濈堕涓荤晫闱?-->
+    <string name="main_rate_exception">蹇幂巼链夊纾甯革紝璇锋敞镒忥紒</string>
+    <string name="main_rate_high">蹇幂巼锅忛佩锛?/string>
+    <string name="main_rate_low">蹇幂巼锅忎绠锛?/string>
+    <string name="title_activity_main_choose">MainChoose</string>
+
+    <!-- 缁勭晫闱?阃夋嫨 -->
+    <string name="title_name">null</string>
+    <string name="now_acount">null</string>
+    <string name="start_heart_rate">蹇幂巼娴嬮噺</string>
+    <string name="personal_info">涓汉璧勬枡</string>
+    <string name="history">铡嗗彶璁板綍</string>
+    <string name="chart">鏁版嵁鍒嗘瀽</string>
+    <string name="free">棰勭暀</string>
+    <string name="setting">璁剧疆</string>
+    <string name="dialog_main_login_tips">        \t灏忔彁绀篭n
+        1.寮€濮嬬橱鍏ユ椂锛屾病链夎处鍙峰彲浠ヨ嚜琛屾敞鍐岋紝瑕佹眰瀹为台淇℃伅濡傚疄濉啓銆俓n
+        2.韬唤璇佸佛锷″繀璁ょ湡濉啓锛屾垒锲炲瘑镰佹椂闇€瑕侀獙璇佽韩浠借瘉鍙枫€俓n
+        3.绋嫔簭涓紝妯″潡杈冨锛屼絾鏄疄闄呭瓨鍌ㄤ俊鎭紝鏄緷鎹綘鐧诲叆镄勮处鍙疯繘琛屽瓨鍌紝鍏朵粬鐢ㄦ埛涓嶅彲瑙并€俓n
+        4.蹇幂巼娴嬮噺妯″潡锛岄渶瑕佽掴鐗欑‖浠剁殑鏀寔锛屽熀链€昏緫鏄细璇﹁棰勭暀妯″潡銆俓n
+        5.阆囧埌BUG锛屾杩庢彁缁欓偖绠憋细jujiabao1993@163.com銆俓n	</string>
+    <string name="dialog_main_login_tips_button">OK</string>
+    <string name="action_tip">璇存槑</string>
+    <string name="action_about">鍏充簬</string>
+    <string name="action_exit">阃€鍑虹▼搴?/string>
+    <string name="login_name">鐧诲綍</string>
+    <string name="user_name_hint">璇疯緭鍏ヤ釜浜鸿处鍙?/string>
+    <string name="user_pwd_hint">璇疯緭鍏ヤ釜浜哄瘑镰?/string>
+    <string name="register_name">娉ㄥ唽涓€涓处鍙?/string>
+    <string name="forget_pwd_name">蹇樿瀵嗙爜锛?/string>
+    <string name="tips_name">镓揿紑鎻愮ず</string>
+    <string name="allow_pwd">璁颁綇瀵嗙爜</string>
+    <string name="allow_internet">鍏佽鑱旗綉</string>
+    <string name="content_explain">        \n
+       		浣滆€咃细灞呭姞瀹漒n\n
+       		鑱旗郴闾锛歫ujiabao1993@163.com\n\n
+       		\t\t姝よ蒋浠朵粎鐚粰鎴戠殑濂芥湅鍙嬬帇浜含鍚屽锛屾劅璋粬澶у锲涘勾闄即镌€鎴戜滑璧拌绷缇庝附镄勯潚鏄ュ勾鍗庯紒	</string>
+    <string name="count_label">鐧诲綍璐﹀佛锛?/string>
+    <string name="input_pwd_label">杈揿叆瀵嗙爜锛?/string>
+    <string name="confirm_pwd_label">鍐嶆杈揿叆锛?/string>
+    <string name="name_label">镇ㄧ殑濮揿悕锛?/string>
+    <string name="ID_label">韬唤璇佸佛锛?/string>
+    <string name="age_label">镇ㄧ殑骞撮缎锛?/string>
+    <string name="gender_label">镇ㄧ殑镐у埆锛?/string>
+    <string name="height_label">镇ㄧ殑韬佩锛?/string>
+    <string name="weight_label">镇ㄧ殑浣挞吨锛?/string>
+    <string name="register_label">娉ㄥ唽</string>
+    <string name="have_count_label">宸叉湁璐﹀佛</string>
+    <string name="return_label">镓惧洖瀵嗙爜</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="change_pwd_count_label">淇敼璐﹀佛锛?/string>
+    <string name="change_pwd_input_pwd">杈揿叆瀵嗙爜锛?/string>
+    <string name="change_pwd_conf_pwd">纭杈揿叆锛?/string>
+    <string name="change_pwd_confirm">纭淇敼</string>
+    <string name="change_pwd_cancel">鍙栨秷</string>
+
+    <!-- 鎴戠殑淇℃伅 -->
+    <string name="pi">璇︾粏璧勬枡</string>
+    <string name="my_name">濮揿悕锛?/string>
+    <string name="my_age">骞撮缎锛?/string>
+    <string name="my_gender">镐у埆锛?/string>
+    <string name="my_height">韬佩锛?/string>
+    <string name="my_weight">浣挞吨锛?/string>
+    <string name="my_create_time">寤虹珛镞堕棿锛?/string>
+    <string name="title_activity_my_information">MyInformation</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_show_history">ShowHistory</string>
+    <string name="title_activity_chart_choose">ChartChoose</string>
+    <string name="title_activity_zhe_line_chart">ZheLineChart</string>
+    <string name="title_activity_line_chart">LineChart</string>
+    <string name="title_activity_chart_show">ChartShow</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_logic_show">LogicShow</string>
+    <!-- 瀵煎嚭Excel -->
+    <string name="excel_success">\t瀵煎嚭Excel鎴愬姛!\n\n\t璇蜂簬镓嬫満鐩綍涓嬶细com.jujiabao.HeartRate鏂囦欢澶逛笅镆ョ湅銆?/string>
+    <string name="excel_failed">瀵煎嚭澶辫触锛佽杩斿洖閲嶈瘯銆傝嫢杩树笉鑳藉鍑猴紝璇峰湪镓嬫満涓€浜涘畨鍏ㄨ蒋浠跺簲鐢ㄩ噷瑙ｉ櫎镓嬫満瀛桦偍鏉冮檺锛屽啀閲嶆柊灏濊瘯銆?/string>
+    <!-- 瑙ｆ瀽xml -->
+    <string name="find_xml_failed">鏂囦欢銮峰彇澶辫触锛岃妫€娴嬫坠链哄唴瀛树腑鏄惁链塩om.jujiabao.HeartRate鐩綍锛屽叾涓槸鍚﹁缮链塴ogic_content.xml鏂囦欢</string>
+    <string name="xml_name_history">logic_content.xml</string>
+    <string name="designedby">Designed by Hello.Ju</string>
+    <string name="APP">APP</string>
+    <string name="confirm">纭畾</string>
+    <string name="title_activity_about_author">AboutAuthor</string>
+
+</resources>

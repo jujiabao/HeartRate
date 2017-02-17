@@ -1,0 +1,53 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidtest.MainActivity" 
+    android:background="#ffffff">
+
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        >
+        <TextView
+	        android:id="@+id/test"
+	        android:layout_width="fill_parent"
+	        android:layout_height="73sp"
+	        android:layout_marginLeft="10sp"
+	        android:layout_marginRight="10sp"
+	        android:background="@drawable/logo"/>
+	    
+	    <TextView
+	        android:id="@+id/test1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80sp"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:layout_marginLeft="5sp"
+	        android:layout_marginRight="5sp"
+	        android:background="#ffffff"
+	        android:text="@string/APP"
+	        android:textColor="#FF8C00"
+	        android:textStyle="bold"
+	        android:textSize="35sp"
+	        />
+
+	    <ProgressBar
+	        android:id="@+id/progressBar1"
+	        style="?android:attr/progressBarStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10sp"
+	        android:layout_marginBottom="10sp"
+	        android:text="@string/designedby"
+	        android:textStyle="italic"
+	        />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+﻿<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+	<!-- 镊畾涔夋爣棰樻爮锛岄佩搴︼细60dp,棰滆壊锛歠5f5dc -->
+    <style name="MyTitle" parent="android:Theme">
+        <item name="android:windowTitleSize">60dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+    
+    <style name="WindowTitleBackground">
+        <item name="android:background">#F5F5F5</item>
+    </style>
+    
+    <string name="register"><u>娉ㄥ唽涓€涓柊璐﹀佛</u></string>
+    
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+    <item name="android:windowFrame">@null</item>
+    <!-- 杈规 -->
+    <item name="android:windowIsFloating">true</item>
+    <!-- 鏄惁娴幇鍦╝ctivity涔嬩笂 -->
+    <item name="android:windowIsTranslucent">false</item>
+    <!-- 鍗婇€忔槑 -->
+    <item name="android:windowNoTitle">true</item>
+    <!-- 镞犳爣棰?-->
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <!-- 镊繁鎯宠镄勮儗鏅?-->
+    <item name="android:backgroundDimEnabled">true</item>
+    <!-- 妯＄硦 -->
+	</style>
+</resources>

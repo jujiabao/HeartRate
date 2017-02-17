@@ -1,0 +1,61 @@
+﻿<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dip"
+        android:background="@drawable/filled_box_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dip"
+        tools:ignore="UselessParent" >
+
+        <TextView
+            android:id="@+id/show_allow_internet_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dip"
+            android:background="@drawable/message_box"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="@string/title_name"
+            android:minLines="5"
+            android:padding="5dip"
+            android:textColor="#00008B"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_dialog_allinternet_confirm"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:layout_marginTop="5dip"
+                android:alpha="1"
+                android:background="@drawable/btn_confirm_selector"
+                android:minLines="2"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="@string/confirm"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+         <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tips" />
+    -->
+
+</FrameLayout>

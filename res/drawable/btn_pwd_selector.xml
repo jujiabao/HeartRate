@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  	<!-- 鎸夐挳琚寜涓嬫椂鏄剧ず镄勮儗鏅? -->
+    <item android:state_pressed="true" android:drawable="@color/miwhite_grey" />
+    <!-- 鎸夐挳琚仛铹︽椂鏄剧ず镄勮儗鏅?-->
+    <item android:state_focused="true" android:drawable="@drawable/btn" />
+    <!-- 鎸夐挳榛樿鏄剧ず镄勮儗鏅? -->
+    <item android:drawable="@color/toumin" />
+</selector>
+

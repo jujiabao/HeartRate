@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="content_bg">#33FFFFFF</color>
+    <color name="text_color">#7FFFFFFF</color>
+    <color name="translucent_black">#BF000000</color>
+    <color name="pure_white">#ffffff</color>
+    <color name="bg_dark_blue">#3a82f5</color>
+    <color name="green">#00FF00</color>
+    <color name="toumin">#00000000</color>
+	<color name="orange">#FF8C00</color>
+	<color name="orange_grey">#FF8C0000</color>
+	<color name="miwhite">#f5f5f5</color>
+	<color name="miwhite_grey">#EEE9E9</color>
+	<color name="red">#FF0000</color>
+	<color name="blue">#0000FF</color>
+	<color name="white">#ffffff</color>
+</resources>

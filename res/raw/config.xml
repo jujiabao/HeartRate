@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <t1>
+        <account>zhangsan</account>
+	    <pwd>123</pwd>
+	    <clear>1</clear>
+    </t1>
+</config>

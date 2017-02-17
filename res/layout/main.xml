@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <TextView 
+        android:id="@+id/show_heart_info"
+        android:layout_height="100sp"
+        android:layout_width="fill_parent"
+        android:text="@string/show_info"
+        android:textSize="25sp"
+        android:textColor="@color/orange"
+        android:background="@color/miwhite_grey"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    
+    <TextView 
+        android:id="@+id/show_heart"
+        android:layout_height="100sp"
+        android:layout_width="fill_parent"
+        android:text="@string/show_heart"
+        android:textSize="50sp"
+        android:textColor="@color/orange"
+        android:background="@color/miwhite_grey"
+        android:gravity="center_horizontal|center_vertical"
+        android:drawableBottom="@drawable/black_pane"
+        />
+    
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        >
+    </ListView>
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="5sp"
+        android:drawableBottom="@drawable/black_pane"
+        />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+       <TextView 
+		android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="#EEE9E9"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/btn_rec"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+		/>
+       <Button 
+        android:id="@+id/btn_recv"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/btn_rec"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        /> 
+    </RelativeLayout>
+    
+    <Button 
+        android:id="@+id/btn_quit"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/btn_quit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        />
+</LinearLayout>
